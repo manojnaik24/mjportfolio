@@ -1,0 +1,41 @@
+
+body {
+    background: url('../assets/images/p3.jpg') no-repeat center center fixed;
+
+    background-size: cover;
+  }
+  
+  header {
+    background-color: rgba(255, 255, 255, 0); /* More transparent background */
+    color: #edf4f3; /* Text color */
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  section {
+    background-color: rgba(255, 255, 255, 0); /* Semi-transparent sections */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #f6f7f2; /* Black text for readability */
+  }
+  
+
+  
+  
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #9df2f3;
+    text-align: center;
+  }
+  
+  
+  
+  

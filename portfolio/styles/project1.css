@@ -1,0 +1,35 @@
+
+body {
+  background: url('../assets/images/p3.jpg') no-repeat center center fixed;
+
+  background-size: cover;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.002); /* More transparent background */
+  color: #07f3b0; /* Text color */
+  padding: 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+section {
+  background-color: rgba(2, 0, 0, 0.258); /* Semi-transparent sections */
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 80%;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #f5f9f9; /* Black text for readability */
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 15px;
+  font-weight: bold;
+}
+

@@ -1,0 +1,139 @@
+/* Global Styles */
+body {
+  background: url('../assets/images/stefan-kunz-6VeIwIf3c_g-unsplash.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333; /* Default text color */
+}
+
+/* Header Section */
+header {
+  background-color: rgba(255, 255, 255, 0); /* Fully transparent background */
+  color: #050600; /* Dark text for better contrast */
+  padding: 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #0078d4; /* Highlight on hover */
+}
+
+/* Section Styles */
+section {
+  background-color: rgba(245, 243, 243, 0.299); /* Light transparent background */
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 80%;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000; /* Black text for readability */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+/* Highlight Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+  background: linear-gradient(to right, #ffffff00, #f6f9f941); /* Subtle gradient */
+  color: #0a0404; /* Dark text for good contrast */
+
+  text-align: center; /* Center align */
+  
+  margin-bottom: 20px; /* Space below the heading */
+  display: inline-block; /* Fit content width */
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+/* Link Buttons in Projects Section */
+section a {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #0078d4; /* Button background */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+section a:hover {
+  background-color: #005fa3; /* Darker shade on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+
+/**/
+
+
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  
+}
+
+.container img {
+  border-radius: 50%;
+  
+  
+}
+
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgba(12, 12, 12, 0.244); /* Black background with transparency */
+  color: #f1f1f1; /* White text */
+  width: 100%;
+  padding: 20px;
+}
+/**/
+
+
+
+.container {
+  width: 100%;
+  background-color: #f0eeee00;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(48, 24, 24);
+}
+
+.java {width: 90%; background-color: #04AA6D;}
+.c{width: 90%; background-color: #2196F3;}
+.Frontend {width: 80%; background-color: #36f4f4;}
+.MySQL {width: 90%; background-color: #e5ed6e;}
