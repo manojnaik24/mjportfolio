@@ -6,6 +6,8 @@ body {
   margin: 0;
   padding: 0;
   color: #333; /* Default text color */
+  justify-content: center;
+  align-items: center;
 }
 
 /* Header Section */
@@ -15,6 +17,7 @@ header {
   padding: 20px;
   text-align: center;
   font-family: 'Arial', sans-serif;
+ 
 }
 
 header nav {
@@ -61,9 +64,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  text-align: center;
+  font-size: 3rem;
+  color: #333;
 }
-
 h2 {
   font-size: 2rem;
 }
@@ -137,3 +141,58 @@ section a:hover {
 .c{width: 90%; background-color: #2196F3;}
 .Frontend {width: 80%; background-color: #36f4f4;}
 .MySQL {width: 90%; background-color: #e5ed6e;}
+
+/* anime.js*/
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr); /* Creates a 5-column grid */
+  gap: 35px; /* Adds space between squares */
+  color: #000000;
+}
+
+
+.square {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(253, 253, 253, 0); /* You can change the color */
+  opacity: 0; /* Initially hidden */
+  animation: fadeIn 2s infinite; /* Applying the fadeIn animation */
+  animation-timing-function: ease-in-out; /* Smooth transition for the animation */
+  align-items: center; /* Centers the letter vertically */
+  justify-content: center; /* Centers the letter horizontally */
+  font-weight: bold; /* Makes the letter bold */
+  display: flex; /* Centers the letter */
+}
+/* Animation: fade in each square */
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* Starts invisible */
+    transform: scale(0.5); /* Starts smaller */
+  }
+  100% {
+    opacity: 1; /* Ends fully visible */
+    transform: scale(1); /* Ends at normal size */
+  }
+}
+
+.square:nth-child(1) {
+  animation-delay: 0s; /* No delay for the first square */
+}
+
+.square:nth-child(2) {
+  animation-delay: 0.2s; /* 0.2s delay for the second square */
+}
+
+.square:nth-child(3) {
+  animation-delay: 0.4s; /* 0.4s delay for the third square */
+}
+
+.square:nth-child(4) {
+  animation-delay: 0.6s; /* 0.6s delay for the fourth square */
+}
+
+.square:nth-child(5) {
+  animation-delay: 0.8s; /* 0.8s delay for the fifth square */
+}
